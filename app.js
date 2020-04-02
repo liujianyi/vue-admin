@@ -8,7 +8,7 @@ const router = require("./api/router");
 
 const path = require('path');
  
-app.use(static(path.resolve(__dirname,'./static')));
+app.use(static(path.resolve(__dirname,'./statics')));
 
 app.use(async (ctx,next)=>{
     
