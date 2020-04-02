@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/liujianyi/vue-admin/issues"
   },
-  "homepage": "https://github.com/liujianyi/vue-admin#readme"
+  "homepage": "https://github.com/liujianyi/vue-admin#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0"
+  }
 }
