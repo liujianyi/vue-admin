@@ -22,6 +22,6 @@ app.use(async (ctx,next)=>{
 });
 app.use(router.routes());
 
-app.listen(8080,()=>{
-    console.log("this server listening 8080 port ")
+app.listen(8000,()=>{
+    console.log("this server listening 8000 port ")
 })
